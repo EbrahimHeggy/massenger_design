@@ -21,7 +21,10 @@ class MyApp extends StatelessWidget
   {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MassengerScreen(),
+      home: MessengerScreen(),
+      // backgroundImage: NetworkImage(
+      //     'https://avatars.githubusercontent.com/u/85329448?v=4'
+      // ),
     );
   }
 }
